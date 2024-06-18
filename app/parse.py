@@ -29,6 +29,7 @@ def create_new_record() -> None:
 
 async def schedule_parsing() -> None:
     """Schedules the creation of new records every hour."""
+    create_new_record()
 
     schedule.every(1).hours.do(create_new_record)
     while True:
