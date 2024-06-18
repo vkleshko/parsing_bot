@@ -7,12 +7,6 @@
 git clone https://github.com/vkleshko/parsing_bot.git
 ```
 
-#### Navigate to the project directory:
-
-```bash
-cd parsing_bot
-```
-
 #### Create a virtual environment:
 
 ```bash
