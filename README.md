@@ -10,7 +10,7 @@ Clone the project
 Install dependencies
 
 ```bash
-  pip install -r requirements.txt.txt
+  pip install -r requirements.txt
 ```
 
 ### To get your telegram bot token
