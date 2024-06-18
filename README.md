@@ -1,7 +1,7 @@
 #  Bot for getting vacancy static today 
 
 ## Installing using GitHub
-#### Clone the project
+#### If you're using a terminal to run the bot, you can clone the project repository using the following command:
 
 ```bash
 git clone https://github.com/vkleshko/parsing_bot.git
