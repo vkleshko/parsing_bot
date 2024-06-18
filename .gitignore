@@ -10,6 +10,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore Excel report file
+report.xlsx
+
+# Ignore SQLite database file
+robota.sqlite3
+
 # Distribution / packaging
 .Python
 build/
