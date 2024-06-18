@@ -4,36 +4,36 @@
 #### Clone the project
 
 ```bash
-  git clone https://github.com/vkleshko/parsing_bot.git
+git clone https://github.com/vkleshko/parsing_bot.git
 ```
 
 #### Navigate to the project directory:
 
 ```bash
-  cd parsing_bot
+cd parsing_bot
 ```
 
 #### Create a virtual environment:
 
 ```bash
-  python -m venv venv
+python3 -m venv venv
 ```
 #### Activate the virtual environment:
 
 - Linux, macOS
 ```bash
-  source venv/bin/activate
+source venv/bin/activate
 ```
 
 - Windows
 ```bash
-  venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 #### Install dependencies
 
 ```bash
-  pip install -r requirements.txt.txt
+pip install -r requirements.txt
 ```
 
 ### To get your telegram bot token
@@ -64,6 +64,6 @@ Obtaining a bot token:
 
 To start both the parser and the Telegram bot:
 
-```bash
-  python3 main.py
+```
+python3 main.py
 ```
