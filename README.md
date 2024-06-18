@@ -1,16 +1,39 @@
 #  Bot for getting vacancy static today 
 
 ## Installing using GitHub
-Clone the project
+#### Clone the project
 
 ```bash
   git clone https://github.com/vkleshko/parsing_bot.git
 ```
 
-Install dependencies
+#### Navigate to the project directory:
 
 ```bash
-  pip install -r requirements.txt
+  cd parsing_bot
+```
+
+#### Create a virtual environment:
+
+```bash
+  python -m venv venv
+```
+#### Activate the virtual environment:
+
+- Linux, macOS
+```bash
+  source venv/bin/activate
+```
+
+- Windows
+```bash
+  venv\Scripts\activate
+```
+
+#### Install dependencies
+
+```bash
+  pip install -r requirements.txt.txt
 ```
 
 ### To get your telegram bot token
@@ -28,6 +51,11 @@ Obtaining a bot token:
 - Copy this token. And do setuping environment variables.
 
 ### Set up environment variables:
+#### Linux, macOS
+```
+  export TG_BOT_TOKEN=<your telegram bot token>
+```
+#### Windows
 ```
   set TG_BOT_TOKEN=<your telegram bot token>
 ```
@@ -37,5 +65,5 @@ Obtaining a bot token:
 To start both the parser and the Telegram bot:
 
 ```bash
-  python main.py
+  python3 main.py
 ```
